@@ -1,0 +1,127 @@
+ /* Style the navigation menu */
+  .header{
+      color: #04AA6D;
+      background-color: white;
+      text-align: center;
+      font-size: 30px;
+      padding: 60px;
+    }
+
+  .footer{
+    color: #04AA6D;
+    background-color: darksalmon;
+    text-align: center;
+    font-size: 30px;
+    padding: 60px;
+    }
+
+  .main {
+    color : black;
+    background-color: antiquewhite;
+    text-align: center;
+    font-size: 21px;
+    padding: 200px;
+
+  }  
+ 
+  .topnav {
+    overflow: hidden;
+    background-color: black;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: black;
+    color: white;
+  }  
+
+  .rest
+  {
+    background-color: yellowgreen;
+    color: chocolate;
+    padding: 70px;
+    text-align: center;
+  }
+
+  .bttn {
+    background-color: blue;
+    width: 200px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid yellow;
+    color: white;
+    cursor: pointer;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  .test {
+    display: flex;
+     flex-direction: row;
+    
+ }
+
+ .clr{
+  color: white;
+ }
+ 
