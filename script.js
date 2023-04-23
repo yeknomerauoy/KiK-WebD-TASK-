@@ -48,11 +48,15 @@ function raisealrm(){
       i++;
     }
     alert("YOUR CART .\n"+ y+ "\nGST (@ 18%)    = "+ Math.round(sum*0.18)+"\nTOTAL              = "+ Math.round(sum*1.18)+"\nPRESS \" OK \" TO PLACE ORDER");
-    alert("YOUR ORDER HAS BEEN PLACED")
+    alert("YOUR ORDER HAS BEEN PLACED");
     location.reload();
 }
   else{
     alert("YOU HAVE 0 VALUE ORDER");
     
   }
+}
+
+function fn1(){
+  alert("YOUR RESPONSE HAS BEEN RECORDED")
 }
