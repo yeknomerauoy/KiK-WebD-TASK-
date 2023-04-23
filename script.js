@@ -32,6 +32,7 @@ function read(num,x){
   arr2[x-1]+=1
   arr3[x-1]=1
   arr4[x-1]=num
+  fn2()
   
 }
 
@@ -59,4 +60,8 @@ function raisealrm(){
 
 function fn1(){
   alert("YOUR RESPONSE HAS BEEN RECORDED")
+}
+
+function fn2(){
+  document.getElementById("side").innerHTML=" Total= "+sum;
 }
